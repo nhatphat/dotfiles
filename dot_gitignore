@@ -5,3 +5,4 @@ imyd*
 .justfile
 
 .opencode/
+.claude/
