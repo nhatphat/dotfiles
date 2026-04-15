@@ -38,6 +38,7 @@ auto-update-channel = tip
 window-save-state = always
 confirm-close-surface = false
 macos-titlebar-style = tabs
+macos-window-buttons = hidden
 
 #background-opacity = 0.75
 #background-blur = macos-glass-regular
@@ -67,6 +68,7 @@ keybind = shift+enter=text:\x1b\r
 #theme = aurora
 #theme = dark:TokyoNight Night,light:TokyoNight Day
 theme = dark:Gruvbox Material Dark,light:Gruvbox Material Light
+#theme = dark:Nightfox,light:Dayfox
 
 font-family = Hack Nerd Font Mono
 #font-style = bold
