@@ -26,9 +26,15 @@ $time\
 [ ](fg:lavender)\
 $cmd_duration\
 $line_break\
+$kubernetes\
 \n$character"""
 
 palette = 'catppuccin_mocha'
+
+[kubernetes]
+disabled = false
+format = '[$symbol$context( \($namespace\))]($style) '
+symbol = '󱃾 '
 
 [os]
 disabled = false
