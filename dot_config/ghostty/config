@@ -31,6 +31,8 @@
 # # Just for example:
 # resize-overlay-duration = 4s 200ms
 
+shell-integration-features = true
+
 # pre-release
 auto-update = check
 auto-update-channel = tip
@@ -67,7 +69,8 @@ keybind = shift+enter=text:\x1b\r
 #theme = sea shells
 #theme = aurora
 #theme = dark:TokyoNight Night,light:TokyoNight Day
-theme = dark:Gruvbox Material Dark,light:Gruvbox Material Light
+#theme = dark:Gruvbox Material Dark,light:Gruvbox Material Light
+theme = Gruvbox Material Dark
 #theme = dark:Nightfox,light:Dayfox
 
 font-family = Hack Nerd Font Mono

@@ -7,9 +7,22 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "cli_default_open_behavior": "existing_window",
+  "outline_panel": {
+    "dock": "left"
+  },
+  "collaboration_panel": {
+    "dock": "left"
+  },
+  "agent": {
+    "dock": "right",
+    "favorite_models": [],
+    "model_parameters": []
+  },
   "buffer_font_family": "Hack Nerd Font",
   "ui_font_family": "Hack Nerd Font",
   "git_panel": {
+    "dock": "left",
     "tree_view": false
   },
   "icon_theme": "Catppuccin Frappé",

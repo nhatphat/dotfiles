@@ -50,7 +50,7 @@ formulae = [
   "terraform",
   "mas",
   "uv",
-  "mole", "cloudflared", "dnsmasq:/opt/homebrew/opt/dnsmasq/sbin/dnsmasq", "eza", "helm", "imagemagick:magick", "lfk", "glab", "hunk", "lnav",
+  "mole", "cloudflared", "dnsmasq:/opt/homebrew/opt/dnsmasq/sbin/dnsmasq", "eza", "helm", "imagemagick:magick", "lfk", "glab", "hunk", "lnav", "herdr",
 ]
 
 casks = [
