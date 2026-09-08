@@ -63,7 +63,7 @@ casks = [
   "yaak",
   "arc",
   "shortcat",
-  "pritunl", "easydict",
+  "easydict",
 ]
 
 # GUI applications (casks)
