@@ -59,7 +59,7 @@ casks = [
   "font-hack-nerd-font",
   "zed",
   # "orbstack",
-  "brave-browser",
+  # "brave-browser",
   "yaak",
   "arc",
   "shortcat",
@@ -77,7 +77,7 @@ depends_on = ["brew"] # mas-cli will be auto-installed via brew if needed
 apps = [
   { name = "Mattermost Desktop", id = 1614666244 },
   { name = "TestFlight", id = 899247664 },
-  # { name = "Slack for Desktop", id = 803453959 },
+  { name = "Slack for Desktop", id = 803453959 },
 ]
 
 # ============================================
@@ -140,6 +140,16 @@ command = 'curl -fsSL https://opencode.ai/install | bash'
 name = "claude code"
 binary = "claude"
 command = "curl -fsSL https://claude.ai/install.sh | bash"
+
+[[install.scripts]]
+name = "macup"
+binary = "macup"
+command = "curl -fsSL https://raw.githubusercontent.com/nhatphat/macup/master/install.sh | bash"
+
+[[install.scripts]]
+name = "vpn-router"
+binary = "vpnctl"
+command = "curl -fsSL https://raw.githubusercontent.com/nhatphat/vpn-router/main/install.sh | sh"
 
 # ============================================
 # macOS System Settings
